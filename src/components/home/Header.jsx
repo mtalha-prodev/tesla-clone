@@ -24,33 +24,33 @@ const Header = () => {
         <CustomMenu onClick={() => setSidebar(true)} />
       </RightMenu>
 
-      <SideMenu show={sidebar}>
+      <SideMenu onClick={() => setSidebar(false)} show={sidebar}>
         <CustomClose>
           <CloseMenu onClick={() => setSidebar(false)} />
         </CustomClose>
 
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
-        <li>
+        <li onClick={() => setSidebar(false)}>
           <a>existing inventory</a>
         </li>
       </SideMenu>
